@@ -28,3 +28,10 @@
     max-width: 150px;
   }
 }
+
+@media (max-width: 480px) {
+  .volume {
+    display: none;
+    grid-column: span 0;
+  }
+}

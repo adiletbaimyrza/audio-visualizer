@@ -10,7 +10,7 @@ export function ControlProgressComponent() {
 
   const template = document.createElement("template")
 
-  template.innerHTML = html` <div class="control-progress"></div> `
+  template.innerHTML = html` <div id="control-progress"></div> `
 
   const element = template.content.firstElementChild
 
