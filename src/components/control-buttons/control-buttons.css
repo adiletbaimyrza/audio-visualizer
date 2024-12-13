@@ -1,0 +1,30 @@
+.control-btns {
+  display: flex;
+  justify-content: center;
+
+  .control-btn {
+    cursor: pointer;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .control-btn:active {
+    opacity: 0.5;
+  }
+  #pause-btn,
+  #play-btn {
+    margin: 0 10px 10px 10px;
+  }
+
+  #backward-btn,
+  #forward-btn,
+  #forward-step-btn,
+  #backward-step-btn {
+    margin: 0 5px 10px 5px;
+
+    img {
+      height: 20px;
+    }
+  }
+}

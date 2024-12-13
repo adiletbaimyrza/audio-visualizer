@@ -26,7 +26,7 @@ button {
 
 /* ----- GLOBAL FONTS ----- */
 html {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* ----- SET HEIGHT TO 100% ----- */
@@ -35,4 +35,11 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }

@@ -1,0 +1,14 @@
+.control-progress {
+  display: flex;
+  align-items: center;
+
+  #control-progress__progress {
+    margin: 0 10px;
+  }
+
+  #current-duration,
+  #total-duration {
+    font-size: 14px;
+    color: var(--grey);
+  }
+}

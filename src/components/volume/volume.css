@@ -1,0 +1,30 @@
+.volume {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  #volume-high-btn {
+    display: flex;
+    width: 40px;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  #muted-btn {
+    display: flex;
+    width: 40px;
+
+    img {
+      width: 23px;
+      height: 23px;
+    }
+  }
+
+  #volume-progress {
+    max-width: 150px;
+  }
+}

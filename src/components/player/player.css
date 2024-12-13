@@ -1,0 +1,11 @@
+.player {
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  border: 1px solid var(--border);
+  grid-template-columns: repeat(12, 1fr);
+  background-color: var(--card-bg);
+  color: var(--white);
+  width: 100%;
+  padding: 20px 12px 12px 12px;
+}
