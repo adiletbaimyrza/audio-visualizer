@@ -34,30 +34,7 @@
   }
 }
 
-@media (max-width: 768px) {
-  .control-btn img {
-    width: 30px;
-    height: 30px;
-  }
-
-  #pause-btn,
-  #play-btn {
-    margin: 0 8px 8px 8px;
-  }
-
-  #backward-btn,
-  #forward-btn,
-  #forward-step-btn,
-  #backward-step-btn {
-    margin: 0 4px 8px 4px;
-
-    img {
-      height: 18px;
-    }
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
   .control-btns {
     grid-column: span 9;
   }
